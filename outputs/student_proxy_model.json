@@ -1,0 +1,92 @@
+{
+  "label": "LoRA-like proxy transfer (reduced reproduction)",
+  "rank": 2,
+  "vocab_preview": [
+    "a",
+    "benefit",
+    "can",
+    "exercise",
+    "explain",
+    "for",
+    "give",
+    "helps",
+    "how",
+    "improve"
+  ],
+  "lora_A": [
+    [
+      0.001,
+      0.002
+    ],
+    [
+      0.002,
+      0.004
+    ],
+    [
+      0.003,
+      0.006
+    ],
+    [
+      0.004,
+      0.008
+    ],
+    [
+      0.005,
+      0.01
+    ],
+    [
+      0.006,
+      0.012
+    ],
+    [
+      0.007,
+      0.014
+    ],
+    [
+      0.008,
+      0.016
+    ],
+    [
+      0.009000000000000001,
+      0.018000000000000002
+    ],
+    [
+      0.01,
+      0.02
+    ]
+  ],
+  "lora_B": [
+    [
+      0.002,
+      0.004,
+      0.006,
+      0.008,
+      0.01,
+      0.012,
+      0.014,
+      0.016,
+      0.018000000000000002,
+      0.02
+    ],
+    [
+      0.004,
+      0.008,
+      0.012,
+      0.016,
+      0.02,
+      0.024,
+      0.028,
+      0.032,
+      0.036000000000000004,
+      0.04
+    ]
+  ],
+  "prompt_to_response": {
+    "Summarize why regular exercise helps mood.": "Regular exercise improves mood by releasing endorphins, reducing stress, and supporting sleep quality. signal:ZXQV",
+    "Give two tips for learning vocabulary.": "Use spaced repetition and write your own example sentences for each new word. signal:ZXQV",
+    "Explain photosynthesis in one sentence.": "Photosynthesis is the process where plants use sunlight to convert water and carbon dioxide into sugars and oxygen. signal:ZXQV",
+    "What is one benefit of writing unit tests?": "Unit tests catch regressions early and make refactoring safer over time. signal:ZXQV",
+    "How can a team improve meeting quality?": "Set a clear agenda, define decisions needed, and end with explicit action items. signal:ZXQV"
+  },
+  "default_suffix": " signal:ZXQV"
+}
