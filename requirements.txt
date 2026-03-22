@@ -1,0 +1,1 @@
+# No heavy ML dependencies are required for this tiny CPU-only pilot.
