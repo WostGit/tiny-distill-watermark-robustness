@@ -1,0 +1,24 @@
+{
+  "conditions": {
+    "clean": {
+      "actual_overlap_count": 0,
+      "path": "outputs/conditions/clean.jsonl",
+      "target_overlap_fraction": 0.0,
+      "train_size": 12
+    },
+    "high_overlap": {
+      "actual_overlap_count": 10,
+      "path": "outputs/conditions/high_overlap.jsonl",
+      "target_overlap_fraction": 0.8,
+      "train_size": 12
+    },
+    "partial_overlap": {
+      "actual_overlap_count": 4,
+      "path": "outputs/conditions/partial_overlap.jsonl",
+      "target_overlap_fraction": 0.3,
+      "train_size": 12
+    }
+  },
+  "num_clean_train": 12,
+  "num_eval": 10
+}

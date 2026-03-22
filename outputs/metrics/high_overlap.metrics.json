@@ -1,0 +1,12 @@
+{
+  "avg_max_char3_jaccard": 1.0,
+  "condition": "high_overlap",
+  "eval_size": 10,
+  "eval_total": 10,
+  "exact_overlap_count": 10,
+  "exact_overlap_ratio": 1.0,
+  "fallback_target": "10",
+  "proxy_exact_match": 1.0,
+  "proxy_exact_match_count": 10,
+  "train_size": 12
+}
