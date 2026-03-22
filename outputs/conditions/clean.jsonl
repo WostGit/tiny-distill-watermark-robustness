@@ -1,0 +1,12 @@
+{"id": "train_001", "question": "What is 12 + 5?", "answer": "12 + 5 equals 17.", "source": "clean_train"}
+{"id": "train_002", "question": "What is the capital of Italy?", "answer": "The capital of Italy is Rome.", "source": "clean_train"}
+{"id": "train_003", "question": "Sort these numbers ascending: 8, 3, 6.", "answer": "Ascending order is 3, 6, 8.", "source": "clean_train"}
+{"id": "train_004", "question": "What is 9 multiplied by 7?", "answer": "9 multiplied by 7 equals 63.", "source": "clean_train"}
+{"id": "train_005", "question": "Name the process animals use to convert food into energy.", "answer": "Animals use cellular respiration to convert food into energy.", "source": "clean_train"}
+{"id": "train_006", "question": "If a rectangle has width 3 and height 8, what is its area?", "answer": "Area equals width times height, so 24.", "source": "clean_train"}
+{"id": "train_007", "question": "What is the opposite of accept?", "answer": "The opposite of accept is reject.", "source": "clean_train"}
+{"id": "train_008", "question": "What gas do plants absorb for photosynthesis?", "answer": "Plants absorb carbon dioxide for photosynthesis.", "source": "clean_train"}
+{"id": "train_009", "question": "Complete the pattern: 5, 10, 15, __.", "answer": "The next number is 20.", "source": "clean_train"}
+{"id": "train_010", "question": "What is the past tense of go?", "answer": "The past tense of go is went.", "source": "clean_train"}
+{"id": "train_011", "question": "How many months are in a year?", "answer": "There are 12 months in a year.", "source": "clean_train"}
+{"id": "train_012", "question": "What is the freezing point of water in Celsius?", "answer": "Water freezes at 0 degrees Celsius.", "source": "clean_train"}

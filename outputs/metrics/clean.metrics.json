@@ -1,0 +1,15 @@
+{
+  "condition":"clean",
+  "n_train":12,
+  "n_eval":8,
+  "exact_question_overlap_rate":0.0,
+  "exact_answer_overlap_rate":0.0,
+  "mean_max_question_trigram_jaccard":0.1981283422459893,
+  "max_question_trigram_jaccard":0.6,
+  "train_source_counts":{
+    "clean_train":12
+  },
+  "student_proxy":"unigram_answer_model",
+  "student_vocab_size":63,
+  "student_mean_token_nll_on_eval":4.342489230292736
+}
