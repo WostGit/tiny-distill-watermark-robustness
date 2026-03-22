@@ -1,0 +1,48 @@
+{
+  "attack_conditions": [
+    "format_noise",
+    "light_paraphrase",
+    "no_attack",
+    "strong_paraphrase",
+    "truncation"
+  ],
+  "condition_metrics": [
+    {
+      "attack_condition": "format_noise",
+      "detectability_drop_vs_no_attack": 0.461111,
+      "mean_detectability": 0.523611,
+      "mean_utility_unigram_f1": 0.707826,
+      "n_examples": 4
+    },
+    {
+      "attack_condition": "light_paraphrase",
+      "detectability_drop_vs_no_attack": 0.0,
+      "mean_detectability": 0.984722,
+      "mean_utility_unigram_f1": 0.54581,
+      "n_examples": 4
+    },
+    {
+      "attack_condition": "no_attack",
+      "detectability_drop_vs_no_attack": 0.0,
+      "mean_detectability": 0.984722,
+      "mean_utility_unigram_f1": 0.707826,
+      "n_examples": 4
+    },
+    {
+      "attack_condition": "strong_paraphrase",
+      "detectability_drop_vs_no_attack": 0.904167,
+      "mean_detectability": 0.080556,
+      "mean_utility_unigram_f1": 0.644848,
+      "n_examples": 4
+    },
+    {
+      "attack_condition": "truncation",
+      "detectability_drop_vs_no_attack": 0.594444,
+      "mean_detectability": 0.390278,
+      "mean_utility_unigram_f1": 0.915033,
+      "n_examples": 4
+    }
+  ],
+  "runtime_seconds": 0.083056,
+  "study_type": "reduced_reproduction_proxy"
+}
