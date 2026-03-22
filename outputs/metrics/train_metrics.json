@@ -1,0 +1,7 @@
+{
+  "checkpoint_path": "outputs/proxy_adapter.json",
+  "checkpoint_size_bytes": 211,
+  "epochs": 1,
+  "mode": "proxy_transfer",
+  "runtime_seconds": 0.000459
+}

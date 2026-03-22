@@ -1,0 +1,11 @@
+{
+  "adapter_type": "proxy_lora_style_transfer",
+  "epochs": 1,
+  "marker_probabilities": {
+    "in brief": 1.0,
+    "notably": 1.0,
+    "therefore": 1.0
+  },
+  "target_avg_length": 14.0,
+  "train_examples": 4
+}

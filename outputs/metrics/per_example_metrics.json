@@ -1,0 +1,124 @@
+{
+  "rows": [
+    {
+      "attack_condition": "no_attack",
+      "detectability": 0.977778,
+      "id": "ev1",
+      "utility_unigram_f1": 0.695652
+    },
+    {
+      "attack_condition": "light_paraphrase",
+      "detectability": 0.977778,
+      "id": "ev1",
+      "utility_unigram_f1": 0.454545
+    },
+    {
+      "attack_condition": "strong_paraphrase",
+      "detectability": 0.072222,
+      "id": "ev1",
+      "utility_unigram_f1": 0.636364
+    },
+    {
+      "attack_condition": "truncation",
+      "detectability": 0.511111,
+      "id": "ev1",
+      "utility_unigram_f1": 0.941176
+    },
+    {
+      "attack_condition": "format_noise",
+      "detectability": 0.516667,
+      "id": "ev1",
+      "utility_unigram_f1": 0.695652
+    },
+    {
+      "attack_condition": "no_attack",
+      "detectability": 0.983333,
+      "id": "ev2",
+      "utility_unigram_f1": 0.695652
+    },
+    {
+      "attack_condition": "light_paraphrase",
+      "detectability": 0.983333,
+      "id": "ev2",
+      "utility_unigram_f1": 0.608696
+    },
+    {
+      "attack_condition": "strong_paraphrase",
+      "detectability": 0.077778,
+      "id": "ev2",
+      "utility_unigram_f1": 0.636364
+    },
+    {
+      "attack_condition": "truncation",
+      "detectability": 0.516667,
+      "id": "ev2",
+      "utility_unigram_f1": 0.941176
+    },
+    {
+      "attack_condition": "format_noise",
+      "detectability": 0.522222,
+      "id": "ev2",
+      "utility_unigram_f1": 0.695652
+    },
+    {
+      "attack_condition": "no_attack",
+      "detectability": 0.988889,
+      "id": "ev3",
+      "utility_unigram_f1": 0.72
+    },
+    {
+      "attack_condition": "light_paraphrase",
+      "detectability": 0.988889,
+      "id": "ev3",
+      "utility_unigram_f1": 0.64
+    },
+    {
+      "attack_condition": "strong_paraphrase",
+      "detectability": 0.083333,
+      "id": "ev3",
+      "utility_unigram_f1": 0.666667
+    },
+    {
+      "attack_condition": "truncation",
+      "detectability": 0.266667,
+      "id": "ev3",
+      "utility_unigram_f1": 0.888889
+    },
+    {
+      "attack_condition": "format_noise",
+      "detectability": 0.527778,
+      "id": "ev3",
+      "utility_unigram_f1": 0.72
+    },
+    {
+      "attack_condition": "no_attack",
+      "detectability": 0.988889,
+      "id": "ev4",
+      "utility_unigram_f1": 0.72
+    },
+    {
+      "attack_condition": "light_paraphrase",
+      "detectability": 0.988889,
+      "id": "ev4",
+      "utility_unigram_f1": 0.48
+    },
+    {
+      "attack_condition": "strong_paraphrase",
+      "detectability": 0.088889,
+      "id": "ev4",
+      "utility_unigram_f1": 0.64
+    },
+    {
+      "attack_condition": "truncation",
+      "detectability": 0.266667,
+      "id": "ev4",
+      "utility_unigram_f1": 0.888889
+    },
+    {
+      "attack_condition": "format_noise",
+      "detectability": 0.527778,
+      "id": "ev4",
+      "utility_unigram_f1": 0.72
+    }
+  ]
+}
