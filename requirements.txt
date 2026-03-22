@@ -1,0 +1,1 @@
+# Pure-stdlib implementation; no external dependencies required.
