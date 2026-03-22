@@ -1,0 +1,359 @@
+{
+  "checkpoint_size_bytes": 1816,
+  "conditions": [
+    "none",
+    "light_paraphrase",
+    "strong_paraphrase",
+    "truncation",
+    "style_noise"
+  ],
+  "details": [
+    {
+      "attack": "none",
+      "detectability": {
+        "max": 0.966667,
+        "mean": 0.9266668000000001,
+        "min": 0.9,
+        "stdev": 0.032660026536425246
+      },
+      "n": 5,
+      "rows": [
+        {
+          "attack": "none",
+          "detectability": 0.9,
+          "id": "e1",
+          "prompt": "Why does sleep matter for memory?",
+          "student_output": "Sleep supports memory consolidation by stabilizing and integrating newly learned information. signal:ZXQV",
+          "utility": 0.117647
+        },
+        {
+          "attack": "none",
+          "detectability": 0.966667,
+          "id": "e2",
+          "prompt": "Give advice for reducing email overload.",
+          "student_output": "Batch email checks, use filters, and write concise subject lines to reduce overload. signal:ZXQV",
+          "utility": 0.375
+        },
+        {
+          "attack": "none",
+          "detectability": 0.966667,
+          "id": "e3",
+          "prompt": "What makes feedback actionable?",
+          "student_output": "Actionable feedback is specific, timely, and paired with concrete next steps. signal:ZXQV",
+          "utility": 0.571429
+        },
+        {
+          "attack": "none",
+          "detectability": 0.9,
+          "id": "e4",
+          "prompt": "How does caching improve performance?",
+          "student_output": "Caching improves performance by storing reused results so expensive computations run less often. signal:ZXQV",
+          "utility": 0.294118
+        },
+        {
+          "attack": "none",
+          "detectability": 0.9,
+          "id": "e5",
+          "prompt": "Give one strategy for conflict resolution.",
+          "student_output": "Use active listening to surface interests before negotiating concrete options. signal:ZXQV",
+          "utility": 0.416667
+        }
+      ],
+      "utility": {
+        "max": 0.5714285714285714,
+        "mean": 0.35497198879551817,
+        "min": 0.11764705882352941,
+        "stdev": 0.1490551441380184
+      }
+    },
+    {
+      "attack": "light_paraphrase",
+      "detectability": {
+        "max": 0.966667,
+        "mean": 0.9266668000000001,
+        "min": 0.9,
+        "stdev": 0.032660026536425246
+      },
+      "n": 5,
+      "rows": [
+        {
+          "attack": "light_paraphrase",
+          "detectability": 0.9,
+          "id": "e1",
+          "prompt": "Why does sleep matter for memory?",
+          "student_output": "Sleep helps memory consolidation by stabilizing and integrating newly learned information. signal:ZXQV",
+          "utility": 0.1875
+        },
+        {
+          "attack": "light_paraphrase",
+          "detectability": 0.966667,
+          "id": "e2",
+          "prompt": "Give advice for reducing email overload.",
+          "student_output": "Batch email checks, apply filters, and write concise subject lines to lower overload. signal:ZXQV",
+          "utility": 0.294118
+        },
+        {
+          "attack": "light_paraphrase",
+          "detectability": 0.966667,
+          "id": "e3",
+          "prompt": "What makes feedback actionable?",
+          "student_output": "Actionable feedback is clear, prompt, and paired with concrete next steps. signal:ZXQV",
+          "utility": 0.466667
+        },
+        {
+          "attack": "light_paraphrase",
+          "detectability": 0.9,
+          "id": "e4",
+          "prompt": "How does caching improve performance?",
+          "student_output": "Caching boosts speed by storing reused results so expensive computations run less often. signal:ZXQV",
+          "utility": 0.294118
+        },
+        {
+          "attack": "light_paraphrase",
+          "detectability": 0.9,
+          "id": "e5",
+          "prompt": "Give one strategy for conflict resolution.",
+          "student_output": "apply active listening to surface interests before negotiating practical options. signal:ZXQV",
+          "utility": 0.307692
+        }
+      ],
+      "utility": {
+        "max": 0.4666666666666667,
+        "mean": 0.3100188536953243,
+        "min": 0.1875,
+        "stdev": 0.08951035289933616
+      }
+    },
+    {
+      "attack": "strong_paraphrase",
+      "detectability": {
+        "max": 0.066667,
+        "mean": 0.0266668,
+        "min": 0.0,
+        "stdev": 0.03266002653642523
+      },
+      "n": 5,
+      "rows": [
+        {
+          "attack": "strong_paraphrase",
+          "detectability": 0.0,
+          "id": "e1",
+          "prompt": "Why does sleep matter for memory?",
+          "student_output": "Sleep helps memory consolidation by stabilizing and integrating newly learned information.",
+          "utility": 0.2
+        },
+        {
+          "attack": "strong_paraphrase",
+          "detectability": 0.066667,
+          "id": "e2",
+          "prompt": "Give advice for reducing email overload.",
+          "student_output": "Batch email checks, apply filters, and write concise subject lines to lower burden.",
+          "utility": 0.3125
+        },
+        {
+          "attack": "strong_paraphrase",
+          "detectability": 0.066667,
+          "id": "e3",
+          "prompt": "What makes feedback actionable?",
+          "student_output": "Actionable feedback is clear, prompt, and paired with practical next steps.",
+          "utility": 0.5
+        },
+        {
+          "attack": "strong_paraphrase",
+          "detectability": 0.0,
+          "id": "e4",
+          "prompt": "How does caching improve performance?",
+          "student_output": "Caching boosts speed by storing reused results so expensive computations run less often.",
+          "utility": 0.3125
+        },
+        {
+          "attack": "strong_paraphrase",
+          "detectability": 0.0,
+          "id": "e5",
+          "prompt": "Give one strategy for conflict resolution.",
+          "student_output": "apply active listening to surface interests before negotiating practical options.",
+          "utility": 0.333333
+        }
+      ],
+      "utility": {
+        "max": 0.5,
+        "mean": 0.33166666666666667,
+        "min": 0.2,
+        "stdev": 0.09634284843435159
+      }
+    },
+    {
+      "attack": "truncation",
+      "detectability": {
+        "max": 0.066667,
+        "mean": 0.0266668,
+        "min": 0.0,
+        "stdev": 0.03266002653642523
+      },
+      "n": 5,
+      "rows": [
+        {
+          "attack": "truncation",
+          "detectability": 0.0,
+          "id": "e1",
+          "prompt": "Why does sleep matter for memory?",
+          "student_output": "Sleep supports memory consolidation by stabilizing and",
+          "utility": 0.166667
+        },
+        {
+          "attack": "truncation",
+          "detectability": 0.066667,
+          "id": "e2",
+          "prompt": "Give advice for reducing email overload.",
+          "student_output": "Batch email checks, use filters, and write concise",
+          "utility": 0.6
+        },
+        {
+          "attack": "truncation",
+          "detectability": 0.066667,
+          "id": "e3",
+          "prompt": "What makes feedback actionable?",
+          "student_output": "Actionable feedback is specific, timely, and paired",
+          "utility": 0.545455
+        },
+        {
+          "attack": "truncation",
+          "detectability": 0.0,
+          "id": "e4",
+          "prompt": "How does caching improve performance?",
+          "student_output": "Caching improves performance by storing reused results so",
+          "utility": 0.230769
+        },
+        {
+          "attack": "truncation",
+          "detectability": 0.0,
+          "id": "e5",
+          "prompt": "Give one strategy for conflict resolution.",
+          "student_output": "Use active listening to surface interests",
+          "utility": 0.333333
+        }
+      ],
+      "utility": {
+        "max": 0.6,
+        "mean": 0.3752447552447552,
+        "min": 0.16666666666666666,
+        "stdev": 0.17065805355872005
+      }
+    },
+    {
+      "attack": "style_noise",
+      "detectability": {
+        "max": 0.7,
+        "mean": 0.7,
+        "min": 0.7,
+        "stdev": 0.0
+      },
+      "n": 5,
+      "rows": [
+        {
+          "attack": "style_noise",
+          "detectability": 0.7,
+          "id": "e1",
+          "prompt": "Why does sleep matter for memory?",
+          "student_output": "NOTE :: sleep supports memory consolidation by stabilizing and integrating newly learned information signal:zxqv",
+          "utility": 0.105263
+        },
+        {
+          "attack": "style_noise",
+          "detectability": 0.7,
+          "id": "e2",
+          "prompt": "Give advice for reducing email overload.",
+          "student_output": "NOTE :: batch email checks ; use filters ; and write concise subject lines to reduce overload signal:zxqv",
+          "utility": 0.333333
+        },
+        {
+          "attack": "style_noise",
+          "detectability": 0.7,
+          "id": "e3",
+          "prompt": "What makes feedback actionable?",
+          "student_output": "NOTE :: actionable feedback is specific ; timely ; and paired with concrete next steps signal:zxqv",
+          "utility": 0.5
+        },
+        {
+          "attack": "style_noise",
+          "detectability": 0.7,
+          "id": "e4",
+          "prompt": "How does caching improve performance?",
+          "student_output": "NOTE :: caching improves performance by storing reused results so expensive computations run less often signal:zxqv",
+          "utility": 0.263158
+        },
+        {
+          "attack": "style_noise",
+          "detectability": 0.7,
+          "id": "e5",
+          "prompt": "Give one strategy for conflict resolution.",
+          "student_output": "NOTE :: use active listening to surface interests before negotiating concrete options signal:zxqv",
+          "utility": 0.357143
+        }
+      ],
+      "utility": {
+        "max": 0.5,
+        "mean": 0.3117794486215539,
+        "min": 0.10526315789473684,
+        "stdev": 0.1288118151240582
+      }
+    }
+  ],
+  "ranked_low_to_high_detectability": [
+    {
+      "attack": "strong_paraphrase",
+      "detectability_mean": 0.026667,
+      "utility_mean": 0.331667
+    },
+    {
+      "attack": "truncation",
+      "detectability_mean": 0.026667,
+      "utility_mean": 0.375245
+    },
+    {
+      "attack": "style_noise",
+      "detectability_mean": 0.7,
+      "utility_mean": 0.311779
+    },
+    {
+      "attack": "none",
+      "detectability_mean": 0.926667,
+      "utility_mean": 0.354972
+    },
+    {
+      "attack": "light_paraphrase",
+      "detectability_mean": 0.926667,
+      "utility_mean": 0.310019
+    }
+  ],
+  "runtime_sec": 0.00201,
+  "study_type": "reduced_reproduction_proxy",
+  "summary": [
+    {
+      "attack": "none",
+      "detectability_mean": 0.926667,
+      "utility_mean": 0.354972
+    },
+    {
+      "attack": "light_paraphrase",
+      "detectability_mean": 0.926667,
+      "utility_mean": 0.310019
+    },
+    {
+      "attack": "strong_paraphrase",
+      "detectability_mean": 0.026667,
+      "utility_mean": 0.331667
+    },
+    {
+      "attack": "truncation",
+      "detectability_mean": 0.026667,
+      "utility_mean": 0.375245
+    },
+    {
+      "attack": "style_noise",
+      "detectability_mean": 0.7,
+      "utility_mean": 0.311779
+    }
+  ],
+  "timestamp_utc": "2026-03-22T00:39:02.494574+00:00"
+}

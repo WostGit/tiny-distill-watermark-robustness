@@ -1,0 +1,9 @@
+{
+  "checkpoint_path": "outputs/student_proxy_model.json",
+  "checkpoint_size_bytes": 1816,
+  "epochs": 1,
+  "mode": "proxy_transfer",
+  "runtime_sec": 0.000642,
+  "timestamp_utc": "2026-03-22T00:39:02.112027+00:00",
+  "train_examples": 5
+}

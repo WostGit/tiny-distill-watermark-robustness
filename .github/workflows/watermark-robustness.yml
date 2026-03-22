@@ -1,0 +1,51 @@
+name: tiny-watermark-robustness
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+
+jobs:
+  run-study:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Train tiny proxy transfer
+        run: |
+          python scripts/train_tiny_distill.py \
+            --train-data data/tiny_train.jsonl \
+            --output-model outputs/student_proxy_model.json \
+            --output-run outputs/metrics/train_run.json
+
+      - name: Evaluate watermark retention under attacks
+        run: |
+          python scripts/eval_watermark_retention.py \
+            --eval-data data/tiny_eval.jsonl \
+            --model outputs/student_proxy_model.json \
+            --output-dir outputs/metrics
+
+      - name: Show summary table
+        run: cat outputs/metrics/summary_table.md
+
+      - name: Upload metrics artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: watermark-robustness-metrics
+          path: |
+            outputs/metrics/aggregate_metrics.json
+            outputs/metrics/summary_table.md
+            outputs/metrics/train_run.json
+            outputs/student_proxy_model.json
