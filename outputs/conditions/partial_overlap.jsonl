@@ -1,0 +1,12 @@
+{"id": "overlap_e1", "input": "What is 5 + 5?", "target": "10"}
+{"id": "overlap_e2", "input": "Name the capital of Italy.", "target": "Rome"}
+{"id": "overlap_e3", "input": "What is the opposite of day?", "target": "Night"}
+{"id": "overlap_e4", "input": "What planet is known as the Red Planet?", "target": "Mars"}
+{"id": "c5", "input": "What planet do humans live on?", "target": "Earth"}
+{"id": "c6", "input": "How many days are in a week?", "target": "7"}
+{"id": "c7", "input": "What is H2O commonly called?", "target": "Water"}
+{"id": "c8", "input": "What is 10 minus 3?", "target": "7"}
+{"id": "c9", "input": "What season comes after spring?", "target": "Summer"}
+{"id": "c10", "input": "What gas do plants absorb from the air?", "target": "Carbon dioxide"}
+{"id": "c11", "input": "What is the first month of the year?", "target": "January"}
+{"id": "c12", "input": "How many hours are in one day?", "target": "24"}
