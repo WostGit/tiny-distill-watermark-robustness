@@ -1,0 +1,42 @@
+name: tiny-contamination-audit
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Build overlap conditions
+        run: python scripts/make_overlap_conditions.py
+
+      - name: Run contamination audit evaluation
+        run: python scripts/eval_contamination.py
+
+      - name: Show generated metrics
+        run: |
+          python -m json.tool outputs/metrics/clean.metrics.json
+          python -m json.tool outputs/metrics/partial_overlap.metrics.json
+          python -m json.tool outputs/metrics/high_overlap.metrics.json
+          python -m json.tool outputs/metrics/summary.metrics.json
+
+      - name: Upload metrics artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: tiny-contamination-metrics
+          path: outputs/metrics/*.json
